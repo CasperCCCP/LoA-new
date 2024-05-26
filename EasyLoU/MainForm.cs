@@ -1009,7 +1009,7 @@ namespace EasyLoU
                 MouseHook.GetWindowText(hWnd, WindowTitle, WindowTitle.Capacity);
                 Debug.WriteLine("Clicked handle=" + hWnd.ToString() + " title=" + WindowTitle);
 
-                if (WindowTitle.ToString() != "Legends of Aria")
+                if (WindowTitle.ToString() != "LegendsofAria")
                 {
                     MessageBoxEx.Show(MainForm.TheMainForm, "The selected window is not a Legends of Aria client!");
                     return true;
